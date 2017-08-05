@@ -1,0 +1,15 @@
+revealjs::revealjs_presentation:
+  highlight: pygments
+  center: true
+  mathjax: local
+  self_contained: false
+  fig_height: 6
+  fig_width: 8
+  fig_retina: 2
+  lib_dir: "assets"
+  reveal_plugins: ["chalkboard"]
+  reveal_options:
+    slideNumber: true
+    chalkboard:
+      theme: whiteboard
+      toggleNotesButton: false
