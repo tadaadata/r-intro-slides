@@ -1,0 +1,190 @@
+/*********************************************
+ * Title and section header styles
+ *********************************************/
+body {
+    background-color: #3b3b37;
+}
+
+/* Title slide */
+.reveal .title {
+  font-size: 1.8em;
+}
+
+.reveal .author {
+  padding-top: 50px;
+}
+
+.reveal .date {
+  padding-top: 100px;
+  font-size: .8em;
+}
+
+.reveal .title, .reveal .date, .reveal .author{
+  color: #fdfdfd;
+  /*text-shadow: 0 0 5px #000; causes lag :( */
+}
+
+/* level 1 slide modifications */
+.reveal .slide-background .level1 {
+    background-color: #3b3b37;
+}
+
+.reveal .level1 h1 {
+    font-size: 2em;
+    color: #fdfdfd;
+    /*text-shadow: 0 0 5px #000; causes lag :( */
+}
+
+/* fix level 2 slides at white background */
+.reveal .slide-background .level2 {
+    background-color: #fff;
+}
+
+/*********************************************
+ * Multi-column stuff
+ *********************************************/
+.col2 {
+    columns: 2 200px;
+}
+
+.col3 {
+    columns: 3 150px;
+}
+
+#left {
+  left:-8.33%;
+  text-align: left;
+  float: left;
+  width:50%;
+  z-index:-10;
+}
+
+#right {
+  left:31.25%;
+  top: 75px;
+  float: right;
+  text-align: right;
+  z-index:-10;
+  width:50%;
+}
+
+/*********************************************
+ * Tables
+ *********************************************/
+
+table {
+  max-width: 100%;
+  /* border: 1px solid #e5e5e5; looks bad if table is less than full width bc of display: block */
+  border-collapse: collapse;
+  overflow-x: auto;
+}
+
+.reveal table th {
+  background: #404040;
+  color: white;
+}
+
+/*********************************************
+ * Lists
+ *********************************************/
+
+/* dotted lists */
+.reveal section ul li {
+  text-align: left;
+  font-size: 0.8em;
+  padding-top: 4px;
+}
+
+/* numbered lists */
+.reveal ol li {
+  size: 90%;
+  font-size: 0.8em;
+}
+
+/* Ordered lists should have letters */
+.reveal ol[type="a"] {
+    list-style: lower-alpha;
+}
+
+/*********************************************
+ * Misc stuff
+ *********************************************/
+
+/* plain text */
+.reveal section p {
+  text-align: center;
+  font-size: 0.8em;
+}
+
+/* code blocks */
+.reveal p code {
+  font-size: 0.7em;
+}
+
+.reveal section pre code {
+  size: 70%;
+  font-size: 0.8;
+}
+
+/* For when you need something big */
+.reveal .big {
+  font-size: 2em;
+}
+
+/*********************************************
+ * NAVIGATION CONTROLS
+ *********************************************/
+
+.reveal .chalkboard-button a {
+  color: #666666;
+}
+
+.reveal .controls .navigate-left {
+  border-right-color: transparent; }
+
+.reveal .controls .navigate-right {
+  border-left-color: transparent; }
+
+.reveal .controls .navigate-up {
+  border-bottom-color: transparent; }
+
+.reveal .controls .navigate-down {
+  border-top-color: transparent; }
+
+.reveal .controls .navigate-left.enabled {
+  border-right-color: #666666; }
+
+.reveal .controls .navigate-right.enabled {
+  border-left-color: #666666; }
+
+.reveal .controls .navigate-up.enabled {
+  border-bottom-color: #666666; }
+
+.reveal .controls .navigate-down.enabled {
+  border-top-color: #666666; }
+
+.reveal .controls .navigate-left.enabled:hover {
+  border-right-color: #cccccc; }
+
+.reveal .controls .navigate-right.enabled:hover {
+  border-left-color: #cccccc; }
+
+.reveal .controls .navigate-up.enabled:hover {
+  border-bottom-color: #cccccc; }
+
+.reveal .controls .navigate-down.enabled:hover {
+  border-top-color: #cccccc; }
+
+/*********************************************
+ * PROGRESS BAR
+ *********************************************/
+.reveal .progress {
+  background: rgba(0, 0, 0, 0.2);
+  height: 5px; 
+}
+
+.reveal .progress span {
+  background: #8B8B8B;
+  -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }

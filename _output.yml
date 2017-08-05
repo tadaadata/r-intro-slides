@@ -1,15 +1,17 @@
 revealjs::revealjs_presentation:
   highlight: pygments
+  css: "assets/css/styles.css"
   center: true
   mathjax: local
   self_contained: false
   fig_height: 6
   fig_width: 8
   fig_retina: 2
-  lib_dir: "assets"
+  lib_dir: "assets/libs"
   reveal_plugins: ["chalkboard"]
   reveal_options:
     slideNumber: true
+    progress: true
     chalkboard:
       theme: whiteboard
       toggleNotesButton: false

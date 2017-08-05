@@ -1,6 +1,6 @@
 #! /usr/bin/env Rscript
 
-rmarkdown::render(input         = "intro_slides.Rmd",
+rmarkdown::render(input         = "index.Rmd",
                   output_format = "revealjs::revealjs_presentation",
                   output_file   = "index.html")
 
