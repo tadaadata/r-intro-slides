@@ -1,0 +1,29 @@
+---
+title: "R-Intro"
+output: 
+  revealjs::revealjs_presentation:
+    highlight: pygments
+    center: true
+    mathjax: local
+    self_contained: false
+    fig_height: 6
+    fig_width: 8
+    fig_retina: 2
+    lib_dir: "assets"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(fig.path = "assets/plots/")
+```
+
+# R-Intro
+
+Ohai!
+
+# This is an Intro
+
+It Intros
+
+## Yay
+
+Stuff!
