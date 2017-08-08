@@ -1,0 +1,168 @@
+pre {
+    margin-bottom: 0 !important;
+}
+
+/*
+.exclaim .reveal .state-background {
+  background: black;
+}
+*/
+
+/************************/
+/* Title slide */
+.reveal .title {
+  font-size: 1.8em;
+}
+
+.reveal .author {
+  padding-top: 50px;
+}
+
+.reveal .date {
+  padding-top: 100px;
+  font-size: .8em;
+}
+
+/************************/
+/* level 1 slide modifications */
+.reveal .slide-background .level1 {
+    background-color: #3b3b37;
+}
+
+.reveal .level1 h1 {
+    padding-bottom: 750px;
+    font-size: 2em;
+    color: #fdfdfd;
+    /*text-shadow: 0 0 5px #000; causes lag :( */
+}
+
+/* fix level 2 slides at white background */
+.reveal .slide-background .level2 {
+    background-color: #fff;
+}
+
+/************************/
+
+
+.reveal section ul li {
+  text-align: left;
+  font-size: 0.8em;
+  padding-top: 4px;
+}
+
+.reveal section p {
+  text-align: left;
+  font-size: 0.8em;
+}
+
+.reveal p code {
+  background-color: #d9d9d9;
+  font-size: 0.8em;
+}
+
+.reveal li code {
+  background-color: #d9d9d9;
+  font-size: 0.8em;
+}
+
+.reveal ul li {
+  text-align: left;
+  size: 90%;
+  font-size: 0.8em;
+}
+
+.reveal ol li {
+  text-align: left;
+  size: 90%;
+  font-size: 0.8em;
+}
+
+.reveal section h1 {
+  font-size: 1.5em;
+}
+
+.reveal section pre code {
+  size: 90%;
+  font-size: 0.8em;
+}
+
+slides > slide > hgroup + article {
+    margin-top: 10px !important;
+}
+
+
+/* Quotes */
+.reveal section blockquote {
+  width: 100%;
+  padding: .2em .2;
+  margin: 1em 1;
+  color: #909090;
+  border-left: .2rem solid #E7AD52;
+}
+blockquote p:last-child {
+  margin-bottom: .5;
+}
+@media (min-width: 30em) {
+  blockquote {
+    padding-right: .5em;
+    padding-left: .25rem;
+  }
+}
+
+
+/*********************************************
+ * Multi-column stuff
+ *********************************************/
+.col2 {
+    columns: 2 200px;
+}
+
+.col3 {
+    columns: 3 150px;
+}
+
+#left {
+  left:-8.33%;
+  text-align: left;
+  float: left;
+  width:50%;
+  z-index:-10;
+}
+
+#right {
+  left:31.25%;
+  top: 75px;
+  float: right;
+  /* text-align: right; */
+  z-index:-10;
+  width:50%;
+}
+
+
+/*********************************************
+ * Tables
+ *********************************************/
+
+table {
+  max-width: 100%;
+  /* border: 1px solid #e5e5e5; looks bad if table is less than full width bc of display: block */
+  border-collapse: collapse;
+  overflow-x: auto;
+}
+
+.reveal table th {
+  background: #404040;
+  color: white;
+}
+
+
+/*********************************************
+ * Lists
+ *********************************************/
+
+/* dotted lists */
+.reveal section ul li {
+  text-align: left;
+  font-size: 0.8em;
+  padding-top: 4px;
+}
