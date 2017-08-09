@@ -8,6 +8,32 @@ pre {
 }
 */
 
+/*********************************************
+ * Misc stuff
+ *********************************************/
+
+/* plain text */
+.reveal section p {
+  text-align: center;
+  font-size: 0.8em;
+}
+
+/* code blocks */
+.reveal p code {
+  font-size: 0.7em;
+}
+
+.reveal section pre code {
+  size: 70%;
+  font-size: 0.8;
+}
+
+/* For when you need something big */
+.reveal .big {
+  font-size: 2em;
+}
+
+
 /************************/
 /* Title slide */
 .reveal .title {
@@ -166,3 +192,72 @@ table {
   font-size: 0.8em;
   padding-top: 4px;
 }
+
+/* numbered lists */
+.reveal ol li {
+  size: 90%;
+  font-size: 0.8em;
+}
+
+/* Ordered lists should have letters */
+.reveal ol[type="a"] {
+    list-style: lower-alpha;
+}
+
+/*********************************************
+ * NAVIGATION CONTROLS
+ *********************************************/
+
+.reveal .chalkboard-button a {
+  color: #666666;
+}
+
+.reveal .controls .navigate-left {
+  border-right-color: transparent; }
+
+.reveal .controls .navigate-right {
+  border-left-color: transparent; }
+
+.reveal .controls .navigate-up {
+  border-bottom-color: transparent; }
+
+.reveal .controls .navigate-down {
+  border-top-color: transparent; }
+
+.reveal .controls .navigate-left.enabled {
+  border-right-color: #666666; }
+
+.reveal .controls .navigate-right.enabled {
+  border-left-color: #666666; }
+
+.reveal .controls .navigate-up.enabled {
+  border-bottom-color: #666666; }
+
+.reveal .controls .navigate-down.enabled {
+  border-top-color: #666666; }
+
+.reveal .controls .navigate-left.enabled:hover {
+  border-right-color: #cccccc; }
+
+.reveal .controls .navigate-right.enabled:hover {
+  border-left-color: #cccccc; }
+
+.reveal .controls .navigate-up.enabled:hover {
+  border-bottom-color: #cccccc; }
+
+.reveal .controls .navigate-down.enabled:hover {
+  border-top-color: #cccccc; }
+
+/*********************************************
+ * PROGRESS BAR
+ *********************************************/
+.reveal .progress {
+  background: rgba(0, 0, 0, 0.2);
+  height: 5px;
+}
+
+.reveal .progress span {
+  background: #8B8B8B;
+  -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }

@@ -2,6 +2,8 @@
 title: "R-Intro"
 author: "Tobi & Lukas"
 date: "Aktualisiert: `r format(Sys.time(), '%d. %B %Y @ %H:%M Uhr')`"
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r setup, include=FALSE}
@@ -9,10 +11,38 @@ knitr::opts_chunk$set(fig.path = "assets/plots/")
 source("./init.R")
 ```
 
-# This is an Intro
+# Na, auch hier?
 
-It Intros
+Was wie hier machen
 
-## Yay
+## Wer sind wir
 
-Stuff!
+Leute!
+
+## Was machen wir hier?
+
+Dinge!
+
+## Wieso das Ganze?
+
+Hass!
+
+# Was ist R?
+
+## Voodoo
+
+## Schön
+
+```{r, echo=FALSE}
+mtcars %>%
+  mutate(am = factor(am, levels = c(0, 1), labels = c("Automatik", "Manuell")),
+         consumption = 235 / mpg) %>%
+  ggplot(data = ., aes(x = hp, y = consumption, color = am)) +
+  geom_smooth(aes(group = 1), method = lm, se = F, color = "gray") +
+  geom_point(size = 3, alpha = .7) +
+  scale_color_brewer(palette = "Set1") +
+  labs(title = "Kraftstoffverbrauch",
+       subtitle = "Verbrauch verschiedene PKW nach Leistung und Schaltung",
+       x = "Leistung (PS)", y = "Verbrauch (L/100km)", color = "Schaltung")
+```
+
