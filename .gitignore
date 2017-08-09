@@ -35,4 +35,5 @@ vignettes/*.pdf
 
 # revealjs output
 assets/libs
+assets/plots
 index.html
