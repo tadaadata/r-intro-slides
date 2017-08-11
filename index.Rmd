@@ -7,12 +7,12 @@ editor_options:
 ---
 
 ```{r setup, include=FALSE}
-source("./init.R")
+source("init.R")
 ```
 
-# Na, auch hier?
+# Na, auch hier? {data-background="assets/gifs/welcome.gif" data-background-size="60%"}
 
-Was wie hier machen
+text auf title slide
 
 ## Wer sind wir
 
@@ -22,6 +22,9 @@ Leute!
 
 Dinge!
 
+<span class="big"><https://r-intro.tadaa-data.de/slides></span>
+
+
 ## Wieso das Ganze?
 
 Hass!
@@ -30,7 +33,7 @@ Hass!
 
 ## Voodoo
 
-```{r, echo=TRUE, eval=FALSE}
+```r
 mtcars %>%
   mutate(am = factor(am, levels = c(0, 1), labels = c("Automatik", "Manuell")),
          consumption = 235 / mpg) %>%
@@ -42,8 +45,11 @@ mtcars %>%
        subtitle = "Verbrauch verschiedene PKW nach Leistung und Schaltung",
        x = "Leistung (PS)", y = "Verbrauch (L/100km)", color = "Schaltung")
 ```
+<div class="fragment">
+![](assets/gifs/confused.gif)
+</div>
 
-## Schön
+## ... Aber Schön
 
 ```{r, echo=FALSE}
 mtcars %>%
