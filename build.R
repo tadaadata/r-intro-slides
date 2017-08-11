@@ -5,7 +5,7 @@ cat("\n\nRendering things…\n")
 
 rmarkdown::render(input         = "index.Rmd",
                   output_format = "revealjs::revealjs_presentation",
-                  output_file   = "index.html")
+                  output_file   = "index.html", encoding = "UTF-8")
 
 
 
