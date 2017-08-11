@@ -12,6 +12,10 @@ revealjs::revealjs_presentation:
   self_contained: false
   css: "assets/css/qm-tut.css"
   lib_dir: "assets/libs"
+  include:
+    in_header:
+      - "html_includes/icons.html"
+      - "html_includes/piwik.html"
   reveal_plugins: ["chalkboard"]
   reveal_options:
     slideNumber: true
