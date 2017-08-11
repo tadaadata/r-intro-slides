@@ -1,7 +1,7 @@
 ---
 title: "R-Intro"
 author: "Tobi & Lukas"
-date: "Aktualisiert: `r format(Sys.time(), '%d. %B %Y @ %H:%M Uhr')`"
+date: "Stand: `r format(Sys.time(), '%d. %B %Y @ %H:%M Uhr')`"
 editor_options: 
   chunk_output_type: console
 ---
@@ -11,8 +11,6 @@ source("init.R")
 ```
 
 # Na, auch hier? {data-background="assets/gifs/welcome.gif" data-background-size="60%"}
-
-text auf title slide
 
 ## Wer sind wir
 
@@ -45,6 +43,7 @@ mtcars %>%
        subtitle = "Verbrauch verschiedene PKW nach Leistung und Schaltung",
        x = "Leistung (PS)", y = "Verbrauch (L/100km)", color = "Schaltung")
 ```
+
 <div class="fragment">
 ![](assets/gifs/confused.gif)
 </div>
