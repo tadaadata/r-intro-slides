@@ -20,14 +20,13 @@ Leute!
 
 Dinge!
 
-<span class="big"><https://r-intro.tadaa-data.de/slides></span>
-
+<span class="big"><https://r-intro.tadaa-data.de></span>
 
 ## Wieso das Ganze?
 
 Hass!
 
-# Was ist R?
+# Was ist R? {data-background="assets/images/RStudio-Ball.png" data-background-size="40%"}
 
 ## Voodoo
 
@@ -63,3 +62,8 @@ mtcars %>%
        x = "Leistung (PS)", y = "Verbrauch (L/100km)", color = "Schaltung")
 ```
 
+# Installation {data-background="assets/gifs/software_MGdfeiKtEiEPS.gif" data-background-size="60%"}
+
+## Vorbereitung
+
+Siehe auch: <https://r-intro.tadaa-data.de/book/installation.html>
