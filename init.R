@@ -37,8 +37,8 @@ names(dat) <- c("X", "Y", "Z")
 
 ## First plot
 sim_p1 <- ggplot(dat, aes(X,Y)) +
-  geom_point(size = 2, alpha = .5) +
-  ggtitle(paste("Pearson's r = ", round(cor(dat$X, dat$Y), 1)))
+  geom_point(size = 2, alpha = .8) +
+  ggtitle(paste("Pearson's r = ", round(cor(dat$X, dat$Y), 2)))
 
 ## second plot
 means <- tbl_df(Reduce(rbind, means)) %>%
@@ -48,11 +48,13 @@ means <- tbl_df(Reduce(rbind, means)) %>%
 corrs <- dat %>% group_by(Z) %>% summarize(cor = cor(X,Y)) %>% .$cor
 
 sim_p2 <- ggplot(dat, aes(X, Y, color = Z)) +
-  geom_point(size = 2, show.legend = FALSE, alpha = 0.5) +
-  ggtitle(paste("correlations =",  paste(signif(corrs,2), collapse=", ")))
+  geom_point(size = 2, show.legend = FALSE, alpha = 0.8) +
+  scale_color_brewer(palette = "Set1", guide = FALSE) +
+  ggtitle(paste("Pearson's r = ",  paste(signif(corrs,2), collapse=", ")))
 
 
 ## third plot
 sim_p3 <- sim_p2 +
+  geom_smooth(method = lm, se = FALSE) +
   annotate("text", x = means$x, y = means$y,
-           label = paste("Z=", means$z), cex = 5)
+           label = paste("Z=", means$z), cex = 9)
