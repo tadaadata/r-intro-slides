@@ -20,3 +20,39 @@ theme_set(theme_tut(style = "light", size = 18))
 
 #### Chunk options ####
 knitr::opts_chunk$set(fig.path = "assets/plots/")
+
+
+#### Pre-rendered plots ####
+
+# Via https://simplystatistics.org/2017/08/08/code-for-my-educational-gifs/
+## simulate data
+N <- 100
+Sigma <- matrix(c(1,0.75,0.75, 1), 2, 2)*1.5
+means <- list(c(11,3), c(9,5), c(7,7), c(5,9), c(3,11))
+dat <- lapply(means, function(mu)
+  MASS::mvrnorm(N, mu, Sigma))
+dat <- tbl_df(Reduce(rbind, dat)) %>%
+  mutate(Z = as.character(rep(seq_along(means), each = N)))
+names(dat) <- c("X", "Y", "Z")
+
+## First plot
+sim_p1 <- ggplot(dat, aes(X,Y)) +
+  geom_point(size = 2, alpha = .5) +
+  ggtitle(paste("Pearson's r = ", round(cor(dat$X, dat$Y), 1)))
+
+## second plot
+means <- tbl_df(Reduce(rbind, means)) %>%
+  setNames(c("x","y")) %>%
+  mutate(z = as.character(seq_along(means)))
+
+corrs <- dat %>% group_by(Z) %>% summarize(cor = cor(X,Y)) %>% .$cor
+
+sim_p2 <- ggplot(dat, aes(X, Y, color = Z)) +
+  geom_point(size = 2, show.legend = FALSE, alpha = 0.5) +
+  ggtitle(paste("correlations =",  paste(signif(corrs,2), collapse=", ")))
+
+
+## third plot
+sim_p3 <- sim_p2 +
+  annotate("text", x = means$x, y = means$y,
+           label = paste("Z=", means$z), cex = 5)
