@@ -71,7 +71,9 @@ sim_p1
 ## Man könnte ja…
 
 ```{r sim_p1b, echo=FALSE}
-sim_p1 + geom_smooth(method = lm, se = FALSE, size = 2)
+sim_p1 + 
+  geom_smooth(method = lm, se = FALSE, size = 2)  +
+  ggtitle(paste("Pearson's r = ", round(cor(dat$X, dat$Y), 2)))
 ```
 
 ## But then…
