@@ -1,6 +1,6 @@
 ## I like to keep things seperate...
 
-# Function to install packafe if needed and load afterwards
+# Function to install package if needed and load afterwards
 pkg <- function(package) {
   package <- deparse(substitute(package))
 
