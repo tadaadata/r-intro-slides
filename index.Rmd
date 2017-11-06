@@ -14,17 +14,40 @@ source("init.R")
 
 ## Wer sind wir
 
-Leute!
+<div class="col2">
+Tobi  
+![](assets/images/tobi.jpg)  
+
+<br />
+
+Lukas  
+![](assets/images/lukas.jpg)  
+</div>
 
 ## Was machen wir hier?
 
-Dinge!
+Wir stellen euch **R** vor.
 
 <span class="big"><https://r-intro.tadaa-data.de></span>
 
-## Wieso das Ganze?
+<div class="fragment">![](assets/gifs/confetti.gif)
 
-Hass!
+
+## Ziele des Kurses
+
+- Ihr wisst was R ist und habt Rstudio einsatzbereit auf eurem Rechner  
+- Umgang mit Rstudio
+- Vermittlung grundlegenden Vokabulars
+- Anwendung von Funktionen und rudimentären Statistiken
+- Erweiterung des Funktionsumfangs mit Hilfe von Paketen
+
+## Fahrplan
+
+- Was ist R überhaupt und wozu brauchen wir das?
+- Installation
+- Rstudio: die Arbeitsoberfläche
+- R: ein glorifizierter Taschenrechner?
+- die Open Source Community: Pakete & Hilfe bei Problemen
 
 # Was ist R? {data-background="assets/images/RStudio-Ball.png" data-background-size="40%"}
 
