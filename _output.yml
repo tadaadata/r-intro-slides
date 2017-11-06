@@ -10,7 +10,9 @@ revealjs::revealjs_presentation:
   fig_caption: true
   mathjax: local
   self_contained: false
-  css: "assets/css/qm-tut.css"
+  css:
+      - "assets/css/qm-tut.css"
+      - "assets/css/styles.css"
   lib_dir: "assets/libs"
   include:
     in_header:
