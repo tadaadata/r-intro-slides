@@ -38,6 +38,3 @@ vignettes/*.pdf
 assets/libs
 assets/plots
 index.html
-
-# all assets, I guess
-/assets
