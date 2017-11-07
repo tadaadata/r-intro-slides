@@ -88,6 +88,8 @@ Menschen, Denken, all das...! Warum sollte ich das können?
 Klingt schlimmer, als es ist. Hauptsächlich, weil ihr schreiben statt klicken werdet.
 
 <div class="fragment">
+Das heißt zu Anfang:
+
 ```r
 # Mittelwert berechnen:
 mean(x)
@@ -101,6 +103,8 @@ sd(x)
 </div>
 
 ## Voodoo
+
+...und später dann:
 
 ```r
 mtcars %>%
@@ -161,8 +165,37 @@ sim_p3
 ```
 
 
-# Installation {data-background="assets/gifs/software_MGdfeiKtEiEPS.gif" data-background-size="60%"}
+# Installation {data-background="assets/gifs/software_MGdfeiKtEiEPS.gif" data-background-size="40%"}
 
 ## Vorbereitung
 
-Siehe auch: <https://r-intro.tadaa-data.de/book/installation.html>
+Siehe auch:  
+<https://r-intro.tadaa-data.de/book/installation.html>
+
+## Schritt 1: **R** selbst
+
+<https://www.r-project.org>
+
+![](assets/images/install1.jpg)
+
+## 
+
+dann gleich den ersten Link:  
+![](assets/images/install2.jpg)
+
+und dann wirds schwierig:  
+![](assets/images/install3.png)
+
+## 
+
+<div class="col2">
+für Windows:  
+![](assets/images/install_win1.png)
+
+<br />
+
+für Mac:  
+![](assets/images/install_mac1.png)
+</div>
+
+
