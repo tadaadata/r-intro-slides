@@ -10,7 +10,7 @@ editor_options:
 source("init.R")
 ```
 
-# Na, auch hier? {data-background="assets/gifs/welcome.gif" data-background-size="60%"}
+# Na, auch hier? {data-background="assets/gifs/welcome.gif" data-background-size="40%"}
 
 ## Wer sind wir
 
@@ -49,7 +49,20 @@ Wir stellen euch **R** vor.
 - R: ein glorifizierter Taschenrechner?
 - die Open Source Community: Pakete & Hilfe bei Problemen
 
-# Was ist R? {data-background="assets/images/RStudio-Ball.png" data-background-size="40%"}
+# Was ist R? {data-background="assets/images/RStudio-Ball.png" data-background-size="30%"}
+
+## In erster Linie...
+
+R ist eine Programmiersprache...
+
+<div class="fragment">
+![](assets/gifs/drama.gif)
+
+...zur statisischen Datenanalyse (und zunehmend auch Machine Learning).
+
+## Aber... aber... Psychologie! Menschen, Denken, all das...!
+
+Tjanun. Müsster durch.
 
 ## Voodoo
 
