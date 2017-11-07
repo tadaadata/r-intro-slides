@@ -38,8 +38,8 @@ Wir stellen euch **R** vor.
 
 ## Ziele des Kurses
 
-- Ihr wisst was R ist und habt Rstudio einsatzbereit auf eurem Rechner  
-- Umgang mit Rstudio
+- Ihr wisst was R ist und habt RStudio einsatzbereit auf eurem Rechner  
+- Umgang mit RStudio
 - Vermittlung grundlegenden Vokabulars
 - Anwendung von Funktionen und rudimentären Statistiken
 - Erweiterung des Funktionsumfangs mit Hilfe von Paketen
@@ -48,7 +48,7 @@ Wir stellen euch **R** vor.
 
 - Was ist R überhaupt und wozu brauchen wir das?
 - Installation
-- Rstudio: die Arbeitsoberfläche
+- RStudio: die Arbeitsoberfläche
 - R: ein glorifizierter Taschenrechner?
 - die Open Source Community: Pakete & Hilfe bei Problemen
 
@@ -71,21 +71,21 @@ ist R eine Programmiersprache...
 - löst seit ~2005 gängige Alternativen ab
 - Top-Notch in Analyse und grafischer Darstellung
 - Anfangs leider etwas schwierig, danach allerdings wesentlich flexibler und schneller als die Alternativen
-- quasi endlos erweiterbar
+- Quasi endlos erweiterbar
 
 ## Aber... aber... Psychologie! 
 
 Menschen, Denken, all das...! Warum sollte ich das können?
 
 - diese _Statistik_ lässt euch die nächsten 5 Jahre nicht los
-- es wird kompluzierter werden als $\bar{x} = \frac{1}{n} \sum_{i=1}^{n} {x_i}$ und $\sigma = \frac{1}{n}\sum_{i=1}^n \sqrt{({x_i} - \bar{x})^2}$
-- SPSS kosten viele viele Euros; niemand (erst recht nicht die Uni) möchte für schlechte Ware gutes Geld ausgeben
+- es wird komplizierter werden als $\bar{x} = \frac{1}{n} \sum_{i=1}^{n} {x_i}$ und $\sigma = \frac{1}{n}\sum_{i=1}^n \sqrt{({x_i} - \bar{x})^2}$
+- SPSS kosttn viele viele Euros; niemand (erst recht nicht die Uni) möchte für schlechte Ware gutes Geld ausgeben
 - ihr dürft weder Tabellen noch Grafiken aus SPSS in euren Berichten & Arbeiten benutzen
 - die neuen Profs benutzen **alle** R
 
 ## Aber... programmieren...? =C
 
-Klingt schlimmer, als es ist. Hauptsächlich, weil ihr schreiben statt klicken werdet.
+Klingt schlimmer als es ist. Hauptsächlich, weil ihr schreiben statt klicken werdet.
 
 <div class="fragment">
 Das heißt zu Anfang:
