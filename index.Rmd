@@ -10,6 +10,7 @@ editor_options:
 source("init.R")
 ```
 
+
 # Na, auch hier? {data-background="assets/gifs/welcome.gif" data-background-size="40%"}
 
 ## Wer sind wir
@@ -30,7 +31,9 @@ Wir stellen euch **R** vor.
 
 <span class="big"><https://r-intro.tadaa-data.de></span>
 
-<div class="fragment">![](assets/gifs/confetti.gif)
+<div class="fragment">
+![](assets/gifs/confetti.gif)
+</div>
 
 
 ## Ziele des Kurses
@@ -49,20 +52,53 @@ Wir stellen euch **R** vor.
 - R: ein glorifizierter Taschenrechner?
 - die Open Source Community: Pakete & Hilfe bei Problemen
 
+
 # Was ist R? {data-background="assets/images/RStudio-Ball.png" data-background-size="30%"}
 
 ## In erster Linie...
 
-R ist eine Programmiersprache...
+ist R eine Programmiersprache...
 
 <div class="fragment">
 ![](assets/gifs/drama.gif)
+</div>
 
 ...zur statisischen Datenanalyse (und zunehmend auch Machine Learning).
 
-## Aber... aber... Psychologie! Menschen, Denken, all das...!
+## Genauer gesagt
 
-Tjanun. Müsster durch.
+- R ist _**kostenlos**_
+- löst seit ~2005 gängige Alternativen ab
+- Top-Notch in Analyse und grafischer Darstellung
+- Anfangs leider etwas schwierig, danach allerdings wesentlich flexibler und schneller als die Alternativen
+- quasi endlos erweiterbar
+
+## Aber... aber... Psychologie! 
+
+Menschen, Denken, all das...! Warum sollte ich das können?
+
+- diese _Statistik_ lässt euch die nächsten 5 Jahre nicht los
+- es wird kompluzierter werden als $\bar{x} = \frac{1}{n} \sum_{i=1}^{n} {x_i}$ und $\sigma = \frac{1}{n}\sum_{i=1}^n \sqrt{({x_i} - \bar{x})^2}$
+- SPSS kosten viele viele Euros; niemand (erst recht nicht die Uni) möchte für schlechte Ware gutes Geld ausgeben
+- ihr dürft weder Tabellen noch Grafiken aus SPSS in euren Berichten & Arbeiten benutzen
+- die neuen Profs benutzen **alle** R
+
+## Aber... programmieren...? =C
+
+Klingt schlimmer, als es ist. Hauptsächlich, weil ihr schreiben statt klicken werdet.
+
+<div class="fragment">
+```r
+# Mittelwert berechnen:
+mean(x)
+
+# Median:
+median(x)
+
+# Standardabweichung:
+sd(x)
+```
+</div>
 
 ## Voodoo
 
