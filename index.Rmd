@@ -50,7 +50,7 @@ Wir stellen euch **R** vor.
 - Installation
 - RStudio: die Arbeitsoberfläche
 - R: ein glorifizierter Taschenrechner?
-- die Open Source Community: Pakete & Hilfe bei Problemen
+- Die Open Source Community: Pakete & Hilfe bei Problemen
 
 
 # Was ist R? {data-background="assets/images/RStudio-Ball.png" data-background-size="30%"}
@@ -68,7 +68,7 @@ ist R eine Programmiersprache...
 ## Genauer gesagt
 
 - R ist _**kostenlos**_
-- löst seit ~2005 gängige Alternativen ab
+- Löst seit ~2005 gängige Alternativen ab
 - Top-Notch in Analyse und grafischer Darstellung
 - Anfangs leider etwas schwierig, danach allerdings wesentlich flexibler und schneller als die Alternativen
 - Quasi endlos erweiterbar
@@ -77,11 +77,11 @@ ist R eine Programmiersprache...
 
 Menschen, Denken, all das...! Warum sollte ich das können?
 
-- diese _Statistik_ lässt euch die nächsten 5 Jahre nicht los
-- es wird komplizierter werden als $\bar{x} = \frac{1}{n} \sum_{i=1}^{n} {x_i}$ und $\sigma = \frac{1}{n}\sum_{i=1}^n \sqrt{({x_i} - \bar{x})^2}$
-- SPSS kosttn viele viele Euros; niemand (erst recht nicht die Uni) möchte für schlechte Ware gutes Geld ausgeben
-- ihr dürft weder Tabellen noch Grafiken aus SPSS in euren Berichten & Arbeiten benutzen
-- die neuen Profs benutzen **alle** R
+- Diese _Statistik_ lässt euch die nächsten 5 Jahre nicht los
+- Es wird komplizierter werden als $\bar{x} = \frac{1}{n} \sum_{i=1}^{n} {x_i}$ und $\sigma = \frac{1}{n}\sum_{i=1}^n \sqrt{({x_i} - \bar{x})^2}$
+- SPSS kostet viele viele Euros; niemand (erst recht nicht die Uni) möchte für schlechte Ware gutes Geld ausgeben
+- Ihr dürft weder Tabellen noch Grafiken aus SPSS in euren Berichten & Arbeiten benutzen
+- Die neuen Profs benutzen **alle** R
 
 ## Aber... programmieren...? =C
 
