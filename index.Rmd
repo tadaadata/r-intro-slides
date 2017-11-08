@@ -174,19 +174,11 @@ Siehe auch:
 
 ## Schritt 1: **R** selbst
 
-<https://www.r-project.org>
+<https://cran.r-project.org/>
 
-![](assets/images/install1.jpg)
-
-## 
-
-dann gleich den ersten Link:  
-![](assets/images/install2.jpg)
-
-und dann wirds schwierig:  
 ![](assets/images/install3.png)
 
-## 
+## Je nach Betriebssystem sieht's anders aus
 
 <div class="col2">
 für Windows:  
@@ -198,4 +190,20 @@ für Mac:
 ![](assets/images/install_mac1.png)
 </div>
 
+## Schritt 2: RStudio
 
+Die Basisinstallation von **R** ist notwendig, benutzen werden wir allerdings die Software **RStudio**.
+
+![](assets/images/Ricons.png)
+
+Muss aber natürlich auch erst installiert werden.
+
+## Zurück ins Internet!
+
+<https://www.rstudio.com/>
+
+"Download RStudio" $\rightarrow$ "FREE License" (ganz links)
+
+## Gleiches Spiel: Betriebssysteme
+
+![](assets/images/install_rstudio.png)
