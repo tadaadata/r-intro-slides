@@ -116,6 +116,10 @@ table {
   font-size: 0.8em;
 }
 
+.reveal p {
+  margin: 0px;
+}
+
 /* code blocks */
 .reveal p code {
   font-size: 0.7em;
@@ -180,7 +184,7 @@ table {
  *********************************************/
 .reveal .progress {
   background: rgba(0, 0, 0, 0.2);
-  height: 5px; 
+  height: 5px;
 }
 
 .reveal .progress span {
