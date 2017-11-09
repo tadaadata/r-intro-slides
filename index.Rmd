@@ -78,7 +78,8 @@ ist R eine Programmiersprache...
 Menschen, Denken, all das...! Warum sollte ich das können?
 
 - Diese _Statistik_ lässt euch die nächsten 5 Jahre nicht los
-- Es wird komplizierter werden als $\bar{x} = \frac{1}{n} \sum_{i=1}^{n} {x_i}$ und $\sigma = \frac{1}{n}\sum_{i=1}^n \sqrt{({x_i} - \bar{x})^2}$
+- Es wird komplizierter werden als  
+$\bar{x} = \frac{1}{n} \sum_{i=1}^{n} {x_i}$ und $\sigma = \frac{1}{n}\sum_{i=1}^n \sqrt{({x_i} - \bar{x})^2}$
 - SPSS kostet viele viele Euros; niemand (erst recht nicht die Uni) möchte für schlechte Ware gutes Geld ausgeben
 - Ihr dürft weder Tabellen noch Grafiken aus SPSS in euren Berichten & Arbeiten benutzen
 - Die neuen Profs benutzen **alle** R
@@ -204,6 +205,14 @@ Muss aber natürlich auch erst installiert werden.
 
 "Download RStudio" $\rightarrow$ "FREE License" (ganz links)
 
+<div class="col2">
+![](assets/images/install_rstudio1.png)
+
+<br />
+
+![](assets/images/install_rstudio2.png)
+</div>
+
 ## Gleiches Spiel: Betriebssysteme
 
-![](assets/images/install_rstudio.png)
+![](assets/images/install_rstudio3.png)
