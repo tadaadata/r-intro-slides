@@ -216,3 +216,20 @@ Muss aber natürlich auch erst installiert werden.
 ## Gleiches Spiel: Betriebssysteme
 
 ![](assets/images/install_rstudio3.png)
+
+## Remember...
+
+<div class="col2">
+Wir arbeiten nicht mit _**base R**_...  
+![](assets/images/RBase_Icon.png)  
+
+<br />
+
+...sondern mit _**RStudio**_:  
+![](assets/images/RStudio_Icon.png)  
+</div>
+
+Sobald ihr das richtige Icon gelöscht und RStudio über das andere geöffnet habt, geht es in die Übung!
+
+
+# Doch zuerst:<br />**Kurze Installationspause!** {data-background="assets/gifs/install_break.gif" data-background-size="20%" data-background-position="50% 70%"}
