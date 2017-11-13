@@ -68,10 +68,18 @@ ist R eine Programmiersprache...
 ## Genauer gesagt
 
 - R ist _**kostenlos**_
-- Löst seit ~2005 gängige Alternativen ab
+- Löst seit ~2010 gängige Alternativen ab
 - Top-Notch in Analyse und grafischer Darstellung
 - Anfangs leider etwas schwierig, danach allerdings wesentlich flexibler und schneller als die Alternativen
 - Quasi endlos erweiterbar
+
+## Verbreitung in 2016
+
+![Quelle: <http://r4stats.com/> (bearbeitet)](assets/images/papers_by_software.png)
+
+## Änderungsrate von 2015 zu 2016
+
+![Quelle: <http://r4stats.com/> (bearbeitet)](assets/images/papers_percent_change.png)
 
 ## Aber... aber... Psychologie! 
 
@@ -233,3 +241,16 @@ Sobald ihr das richtige Icon gelöscht und RStudio über das andere geöffnet ha
 
 
 # Doch zuerst:<br />**Kurze Installationspause!** {data-background="assets/gifs/install_break.gif" data-background-size="20%" data-background-position="50% 70%"}
+
+## Für später:
+
+Die Datensätze:
+
+- [Übersicht](https://public.tadaa-data.de/data/readme.html)  
+- [QM-Survey](https://public.tadaa-data.de/data/qm_survey_ss2017.rds)  
+- [Game of Thrones](https://public.tadaa-data.de/data/gotdeaths_books.csv)
+
+Die Übungs-Scripte:
+
+- [Basics](https://public.tadaa-data.de/scripte/Basics.R)  
+- [Tidyverse](https://public.tadaa-data.de/scripte/tidyverse.R)
