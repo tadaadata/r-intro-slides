@@ -244,13 +244,17 @@ Sobald ihr das richtige Icon gelöscht und RStudio über das andere geöffnet ha
 
 ## Für später:
 
-Die Datensätze:
+<div class="col2">
+Die Datensätze:  
 
 - [Übersicht](https://public.tadaa-data.de/data/readme.html)  
 - [QM-Survey](https://public.tadaa-data.de/data/qm_survey_ss2017.rds)  
-- [Game of Thrones](https://public.tadaa-data.de/data/gotdeaths_books.csv)
+- [Game of Thrones](https://public.tadaa-data.de/data/gotdeaths_books.csv)  
 
-Die Übungs-Scripte:
+<br />
+
+Die Übungs-Scripte:  
 
 - [Basics](https://public.tadaa-data.de/scripte/Basics.R)  
-- [Tidyverse](https://public.tadaa-data.de/scripte/tidyverse.R)
+- [Tidyverse](https://public.tadaa-data.de/scripte/tidyverse.R)  
+</div>
