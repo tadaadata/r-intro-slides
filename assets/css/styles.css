@@ -143,6 +143,10 @@ table {
   color: #666666;
 }
 
+.reveal .slide-menu-button a {
+  color: #666666;
+}
+
 .reveal .controls .navigate-left {
   border-right-color: transparent; }
 

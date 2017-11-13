@@ -18,7 +18,7 @@ revealjs::revealjs_presentation:
     in_header:
       - "html_includes/icons.html"
       - "html_includes/piwik.html"
-  reveal_plugins: ["chalkboard"]
+  reveal_plugins: ["chalkboard", "menu"]
   reveal_options:
     slideNumber: true
     progress: true
