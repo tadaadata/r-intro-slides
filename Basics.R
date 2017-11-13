@@ -53,7 +53,7 @@ FALSE | FALSE
 
 num <- 25                   ## "Speichere" die Nummer 25 in das Objekt 'num'
 num                         ## danach lässt sich das Objekt 'num' aufrufen und enthält die Nummer 25
-num-12                      ## und mit dem Objekt lässt sich wieder rechnen
+num - 12                    ## und mit dem Objekt lässt sich wieder rechnen
 Num                         ## Bedenke: R unterscheidet Groß- und Kleinschreibung
                             ## -> klassische Fehlerquelle bei Anfänger*innen!
 
@@ -107,7 +107,7 @@ vec3[1] <- 2
 median(vec3)                                 ## grundlegende Funktionen haben intuitive Namen;
                                              ## mean, sd, var, median...
 quantile(vec3, probs=c(0.25, 0.5, 0.75))     ## es gibt eine Funktion für Quantile;
-                                             ## durch Argumente werden QuaRtile draus
+                                             ## durch Argumente werden Qua-R-tile draus
 
 modus(vec3)                                  ## aber nicht ALLES ist automatisch oder einfach vorhanden
 ??modus                                      ## mit zwei ?? lassen sich ALLE pakete durchsuchen
