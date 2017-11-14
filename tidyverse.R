@@ -27,7 +27,7 @@ got <- read_csv("~/Downloads/gotdeaths_books.csv")
 
 got <- got %>%
   rename(
-    Loyalität = Allegiances, Loyalität = Allegiances, Todesjahr = `Death Year`, Todesbuch = `Book of Death`,
+    Loyalität = Allegiances, Todesjahr = `Death Year`, Todesbuch = `Book of Death`,
     Todeskapitel = `Death Chapter`, Vorstellungskapitel = `Book Intro Chapter`, Geschlecht = Gender,
     Adel = Nobility, Game_of_Thrones = GoT, Clash_of_Kings = CoK, Storm_of_Swords = SoS, Feast_for_Crows = FfC,
     Dance_with_Dragons = DwD
