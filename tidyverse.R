@@ -14,7 +14,7 @@ library(tidyverse)                  # ...aber nach jedem Start von RStudio neu G
 #### Datensätze laden (per Code) ####
 
 # RDS Datensätze müssen (leider) immer direkt angesteuert werden
-qm  <- readRDS("~/Dokumente/tadaa-data/Tutorium QM II/data/qm-survey-2017-R.rds")
+qm  <- file.choose() %>% readRDS()
 
 
 # csv Daten (o.ä.) können bequem das erste mal durch klicken geladen werden,
