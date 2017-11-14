@@ -9,6 +9,14 @@
 install.packages("tidyverse")       # Pakete müssen nur ein mal INSTALLIERT...
 library(tidyverse)                  # ...aber nach jedem Start von RStudio neu GELADEN werden
 
+# Falls das nicht funktioneirt, die Ersatzlösung:
+install.packages("ggplot2")
+install.packages("dplyr")
+install.packages("readr")
+
+library(ggplot2)
+library(dplyr)
+library(readr)
 
 
 #### Datensätze laden (per Code) ####
@@ -17,6 +25,7 @@ library(tidyverse)                  # ...aber nach jedem Start von RStudio neu G
 qm  <- file.choose() %>% readRDS()
 
 # Oder "manuell"
+# "data/qm-survey-2017-R.rds" ist der Pfad zur Datei, der sieht bei euch anders aus!
 qm  <- readRDS("data/qm-survey-2017-R.rds")
 
 
