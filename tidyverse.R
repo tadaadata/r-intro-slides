@@ -15,11 +15,14 @@ library(tidyverse)                  # ...aber nach jedem Start von RStudio neu G
 
 # RDS Datensätze müssen immer mehr oder weniger direkt angesteuert werden
 qm  <- file.choose() %>% readRDS()
+# Oder "manuell"
+qm  <- readRDS("data/qm-survey-2017-R.rds")
+
 
 
 # csv Daten (o.ä.) können bequem das erste mal durch klicken geladen werden,
 # der Code wird dabei angegeben: copy&paste und beim zweiten mal ist es nur ein Tastendruck
-got <- read_csv("~/Downloads/gotdeaths_books.csv")
+got <- read_csv("data/gotdeaths_books.csv")
 
 
 
