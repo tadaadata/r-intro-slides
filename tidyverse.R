@@ -4,17 +4,13 @@
 
 
 ##### Installation ####
-# kann, auf alten oder sehr leistungsschwachen Rechnern bi zu 30 Min dauern
+# kann, auf alten oder sehr leistungsschwachen Rechnern eine Weile dauern
 
-install.packages("tidyverse")       # Pakete müssen nur ein mal INSTALLIERT...
-library(tidyverse)                  # ...aber nach jedem Start von RStudio neu GELADEN werden
-
-# Falls das nicht funktioneirt, die Ersatzlösung:
-install.packages("ggplot2")
+install.packages("ggplot2")         # Pakete müssen nur ein mal INSTALLIERT...
 install.packages("dplyr")
 install.packages("readr")
 
-library(ggplot2)
+library(ggplot2)                    # ...aber nach jedem Start von RStudio neu GELADEN werden
 library(dplyr)
 library(readr)
 
