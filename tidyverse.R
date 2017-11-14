@@ -15,12 +15,13 @@ library(tidyverse)                  # ...aber nach jedem Start von RStudio neu G
 
 # RDS Datensätze müssen immer mehr oder weniger direkt angesteuert werden
 qm  <- file.choose() %>% readRDS()
+
 # Oder "manuell"
 qm  <- readRDS("data/qm-survey-2017-R.rds")
 
 
 
-# csv Daten (o.ä.) können bequem das erste mal durch klicken geladen werden,
+# csv Daten (o.ä.) können bequem das erste mal durch klicken ('Import Dataset', rechts) geladen werden,
 # der Code wird dabei angegeben: copy&paste und beim zweiten mal ist es nur ein Tastendruck
 got <- read_csv("data/gotdeaths_books.csv")
 
@@ -65,3 +66,11 @@ qm %>%
     labs(x = "Partei", y = "Anzahl Sexualpartnerschaften") +
     coord_flip() +
     theme(legend.position = "none")
+
+
+# Freunde & so
+qm %>%
+  filter(freundeeng <= 15, freundeskreis <= 100) %>%
+  ggplot(aes(x = freundeskreis, y = freundeeng)) +
+  geom_point(shape = 21) +
+  geom_smooth(method = "lm", se = F)
