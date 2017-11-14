@@ -13,7 +13,7 @@ library(tidyverse)                  # ...aber nach jedem Start von RStudio neu G
 
 #### Datensätze laden (per Code) ####
 
-# RDS Datensätze müssen (leider) immer direkt angesteuert werden
+# RDS Datensätze müssen immer mehr oder weniger direkt angesteuert werden
 qm  <- file.choose() %>% readRDS()
 
 
