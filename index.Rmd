@@ -11,6 +11,12 @@ source("init.R")
 ```
 
 
+# Fürs nächste Mal: ANTIVIRUS DEAKTIVIEREN!!
+
+## 
+
+Das sorgt sonst dafür, dass sich R nicht ordentlich und Pakete gar nicht installieren lassen!
+
 # Na, auch hier? {data-background="assets/gifs/welcome.gif" data-background-size="40%"}
 
 ## Wer sind wir
