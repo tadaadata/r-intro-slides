@@ -10,13 +10,6 @@ editor_options:
 source("init.R")
 ```
 
-
-# Fürs nächste Mal: ANTIVIRUS DEAKTIVIEREN!!
-
-## 
-
-Das sorgt sonst dafür, dass sich R nicht ordentlich und Pakete gar nicht installieren lassen!
-
 # Na, auch hier? {data-background="assets/gifs/welcome.gif" data-background-size="40%"}
 
 ## Wer sind wir
@@ -95,8 +88,9 @@ Menschen, Denken, all das...! Warum sollte ich das können?
 - Es wird komplizierter werden als  
 $\bar{x} = \frac{1}{n} \sum_{i=1}^{n} {x_i}$ und $\sigma = \frac{1}{n}\sum_{i=1}^n \sqrt{({x_i} - \bar{x})^2}$
 - SPSS kostet viele viele Euros; niemand (erst recht nicht die Uni) möchte für schlechte Ware gutes Geld ausgeben
-- Ihr dürft weder Tabellen noch Grafiken aus SPSS in euren Berichten & Arbeiten benutzen
-- Die neuen Profs benutzen **alle** R
+- Für Psychos:
+    - Ihr dürft weder Tabellen noch Grafiken aus SPSS in euren Berichten & Arbeiten benutzen
+    - Die neuen Profs benutzen **alle** R
 
 ## Aber... programmieren...? =C
 
@@ -186,6 +180,8 @@ sim_p3
 
 Siehe auch:  
 <https://r-intro.tadaa-data.de/book/installation.html>
+
+- Windows-Leute: ANTIVIRUS DEAKTIVIEREN!
 
 ## Schritt 1: **R** selbst
 
