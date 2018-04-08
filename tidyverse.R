@@ -7,7 +7,7 @@
 # kann, auf alten oder sehr leistungsschwachen Rechnern eine Weile dauern
 
 install.packages("ggplot2")         # Pakete müssen nur ein mal INSTALLIERT...
-install.packages("dplyr")           # das macht der Befehl/die Funktion install.packacges()
+install.packages("dplyr")           # das macht der Befehl/die Funktion install.packages()
 install.packages("readr")
 
 library(ggplot2)                    # ...aber nach jedem Start von RStudio neu GELADEN werden
