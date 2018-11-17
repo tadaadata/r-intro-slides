@@ -244,6 +244,4 @@ Sobald ihr das richtige Icon gelöscht und RStudio über das andere geöffnet ha
 
 # Doch zuerst:<br />**Kurze Installationspause!** {data-background="assets/gifs/install_break.gif" data-background-size="20%" data-background-position="50% 70%"}
 
-## Für später:
-
-Die Datensätze: https://data.tadaa-data.de 
+## RStudio {data-background="assets/images/RStudio-fresh.png" data-background-size="90%"}

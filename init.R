@@ -15,12 +15,10 @@ pkg(tidyverse)
 pkg(tadaatoolbox)
 
 # load and set custom ggplot theme
-source("https://tobi.tadaa-data.de/theme_tut.R")
-theme_set(theme_tut(style = "light", size = 18))
+theme_set(theme_tadaa())
 
 #### Chunk options ####
 knitr::opts_chunk$set(fig.path = "assets/plots/")
-
 
 #### Pre-rendered plots ####
 
