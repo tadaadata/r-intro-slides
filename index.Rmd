@@ -89,8 +89,8 @@ Menschen, Denken, all das...! Warum sollte ich das können?
 $\bar{x} = \frac{1}{n} \sum_{i=1}^{n} {x_i}$ und $\sigma = \frac{1}{n}\sum_{i=1}^n \sqrt{({x_i} - \bar{x})^2}$
 - SPSS kostet viele viele Euros; niemand (erst recht nicht die Uni) möchte für schlechte Ware gutes Geld ausgeben
 - Für Psychos:
-    - Ihr dürft weder Tabellen noch Grafiken aus SPSS in euren Berichten & Arbeiten benutzen
-    - Die neuen Profs benutzen **alle** R
+    - Ihr dürft weder Tabellen noch Grafiken aus SPSS in euren Berichten & Arbeiten benutzen (wenn ihr gute Noten wollt)
+    - Die neuen Profs benutzen **alle** R (laut Tobi)
 
 ## Aber... programmieren...? =C
 
@@ -245,3 +245,7 @@ Sobald ihr das richtige Icon gelöscht und RStudio über das andere geöffnet ha
 # Doch zuerst:<br />**Kurze Installationspause!** {data-background="assets/gifs/install_break.gif" data-background-size="20%" data-background-position="50% 70%"}
 
 ## RStudio {data-background="assets/images/RStudio-fresh.png" data-background-size="90%"}
+
+## Übungsprojekt
+
+https://tadaa.click/demo
