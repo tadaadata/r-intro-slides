@@ -1,5 +1,5 @@
 ---
-title: "R-Intro"
+title: "R-Intro QM1"
 author: "Tobi & Lukas"
 date: "Stand: `r format(Sys.time(), '%d. %B %Y @ %H:%M Uhr')`"
 editor_options: 
