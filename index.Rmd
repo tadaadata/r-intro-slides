@@ -1,6 +1,6 @@
 ---
 title: "R-Intro QM1"
-author: "Tobi & Lukas"
+author: "Tobi & Lukas & Gesa"
 date: "Stand: `r format(Sys.time(), '%d. %B %Y @ %H:%M Uhr')`"
 editor_options: 
   chunk_output_type: console
@@ -14,7 +14,7 @@ source("init.R")
 
 ## Wer sind wir
 
-<div class="col2">
+<div class="col3">
 Tobi  
 ![](assets/images/tobi.jpg)  
 
@@ -22,6 +22,11 @@ Tobi
 
 Lukas  
 ![](assets/images/lukas.jpg)  
+
+<br />
+
+Gesa  
+![](assets/images/gesa.jpg)  
 </div>
 
 ## Was machen wir hier?
